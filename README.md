@@ -11,24 +11,38 @@ Selectable Baud Rates: Easily toggle between common baud rates using a single bu
 57600
 115200
 Real-time Status Display: A 128x32 I2C OLED display shows:
+
 Current Baud Rate
+
 BLE Connection Status
+
 Tx/Rx (Transmit/Receive) data activity indicators
-Wide Application: Ideal for:
+
+Wide Application:
+
+Ideal for:
 Installing/Managing console-mode firewalls (pfSense, OPNsense)
+
 Configuring embedded systems (e.g., servo motor controllers with PID settings)
+
 General serial debugging and communication.
 
 🛠️ Hardware Components
+
 The following components are required to build this project:
 
 Component	Description
+
 Microcontroller:	Seeeduino XIAO ESP32-C6.
+
 Serial Converter:	RS232 TTL Converter Module (3.3V/5V compatible).
+
 Display: 128x32 I2C OLED Display.
+
 Interface: Momentary Push Button (for baud rate selection).
 
 🔌 Wiring and Setup
+
 The code is designed to be self-explanatory for the wiring and pin assignments. Please refer to the main.ino
 for detailed pinouts connecting the XIAO ESP32-C6 to the RS232 TTL converter, OLED display, and baud rate selection button.
 OLED (I2C): Connects to the designated SDA/SCL pins on the ESP32-C6.
@@ -36,6 +50,7 @@ RS232 Converter (TTL): Connects to the designated UART TX/RX pins on the ESP32-C
 Selection Button: Connects to a designated digital input pin on the ESP32-C6.
 
 💻 Usage
+
 Flash the Code: Upload the provided code to your XIAO ESP32-C6.
 Initial Power-Up: The device will power on and display the default baud rate 115200.
 Select Baud Rate: Press the selection button to cycle through the available baud rates until you match the setting of your target device.
@@ -44,5 +59,6 @@ Pair via BLE: On your smartphone or tablet, use a Serial Bluetooth Terminal appl
 Communicate: Once paired, you can send and receive serial data wirelessly! The OLED will update to show the connected status.
 
 🤖 AI-Powered Development
+
 This entire codebase was collaboratively completed using Google Gemini AI and ChatGPT AI. The code is designed to be well-structured and commented to clearly explain its functionality, state machine, and hardware interaction logic.
 
