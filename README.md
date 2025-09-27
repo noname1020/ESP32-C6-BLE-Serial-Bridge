@@ -22,14 +22,14 @@ General serial debugging and communication.
 The following components are required to build this project:
 
 Component	Description
-Microcontroller	Seeeduino XIAO ESP32-C6
-Serial Converter	RS232 TTL Converter Module (3.3V/5V compatible)
-Display	128x32 I2C OLED Display
-Interface	Momentary Push Button (for baud rate selection)
+Microcontroller:	Seeeduino XIAO ESP32-C6
+Serial Converter:	RS232 TTL Converter Module (3.3V/5V compatible)
+Display:	128x32 I2C OLED Display
+Interface:	Momentary Push Button (for baud rate selection)
 
 🔌 Wiring and Setup
-The code is designed to be self-explanatory for the wiring and pin assignments. Please refer to the main.ino (or relevant source file) for detailed pinouts connecting the XIAO ESP32-C6 to the RS232 TTL converter, OLED display, and baud rate selection button.
-High-Level Connections:
+The code is designed to be self-explanatory for the wiring and pin assignments. Please refer to the main.ino
+for detailed pinouts connecting the XIAO ESP32-C6 to the RS232 TTL converter, OLED display, and baud rate selection button.
 OLED (I2C): Connects to the designated SDA/SCL pins on the ESP32-C6.
 RS232 Converter (TTL): Connects to the designated UART TX/RX pins on the ESP32-C6.
 Selection Button: Connects to a designated digital input pin on the ESP32-C6.
