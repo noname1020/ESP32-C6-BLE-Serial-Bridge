@@ -1,6 +1,6 @@
 # ESP32-C6-BLE-Serial-Bridge
 A versatile, handheld tool for accessing a serial port via Bluetooth Low Energy (BLE), featuring on-the-fly baud rate selection and real-time status display. Perfect for console management, device configuration, and serial communication on the go!
-
+![alt text](https://github.com/noname1020/ESP32-C6-BLE-Serial-Bridge/blob/main/PXL_20250927_184047986.MP.jpg)
 ✨ Features
 Wireless Serial Access: Connect to the serial port of devices like firewalls, routers, or motor controllers via BLE using a smartphone or tablet.
 Selectable Baud Rates: Easily toggle between common baud rates using a single button:
