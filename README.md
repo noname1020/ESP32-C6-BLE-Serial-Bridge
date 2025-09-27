@@ -39,7 +39,9 @@ Serial Converter:	RS232 TTL Converter Module (3.3V/5V compatible).
 
 Display: 128x32 I2C OLED Display.
 
-Interface: Momentary Push Button (for baud rate selection).
+Interface: Momentary Push Button (for baud rate selection) and a Tiny Push Button power switch.
+
+Power Source:  A small 500mh Lithium Battery.
 
 🔌 Wiring and Setup
 
