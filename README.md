@@ -23,10 +23,10 @@ General serial debugging and communication.
 The following components are required to build this project:
 
 Component	Description
-Microcontroller:	Seeeduino XIAO ESP32-C6
-Serial Converter:	RS232 TTL Converter Module (3.3V/5V compatible)
-Display:	128x32 I2C OLED Display
-Interface:	Momentary Push Button (for baud rate selection)
+Microcontroller:	Seeeduino XIAO ESP32-C6.
+Serial Converter:	RS232 TTL Converter Module (3.3V/5V compatible).
+Display: 128x32 I2C OLED Display.
+Interface: Momentary Push Button (for baud rate selection).
 
 🔌 Wiring and Setup
 The code is designed to be self-explanatory for the wiring and pin assignments. Please refer to the main.ino
