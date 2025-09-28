@@ -41,7 +41,7 @@ Display: 128x32 I2C OLED Display.
 
 Interface: Momentary Push Button (for baud rate selection) and a Tiny Push Button power switch.
 
-Power Source:  A small 500mh Lithium Battery.
+Power Source:  A small 500mAh Lithium Battery.
 
 🔌 Wiring and Setup
 
